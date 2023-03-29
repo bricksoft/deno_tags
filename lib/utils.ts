@@ -5,6 +5,6 @@ import { TemplateTransformer, TemplateTag, PluginFunction } from "./types.ts";
  * New Tag factory
  */
 export const createTag:
-  | ((transformers?: Array<TemplateTransformer<any>>) => TemplateTag)
-  | ((...transformers: Array<TemplateTransformer<any>>) => TemplateTag)
-  | ((...pluginFunctions: PluginFunction<any>[]) => TemplateTag) = _createTag;
+  | (<T>(transformers?: Array<TemplateTransformer<T>>) => TemplateTag)
+  | (<T>(...transformers: Array<TemplateTransformer<T>>) => TemplateTag)
+  | (<T>(...pluginFunctions: PluginFunction<T>[]) => TemplateTag) = _createTag;
