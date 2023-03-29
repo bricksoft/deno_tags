@@ -1,4 +1,4 @@
-import { createTag as _createTag } from "https://cdn.esm.sh/common-tags@1.8.0";
+import { createTag as _createTag } from "https://cdn.esm.sh/common-tags@1.8.2";
 import { TemplateTransformer, TemplateTag, PluginFunction } from "./types.ts";
 
 /**

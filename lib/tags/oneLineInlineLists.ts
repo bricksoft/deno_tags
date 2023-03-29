@@ -1,4 +1,4 @@
-import { oneLineInlineLists as _oneLineInlineLists } from "https://cdn.esm.sh/common-tags@1.8.0";
+import { oneLineInlineLists as _oneLineInlineLists } from "https://cdn.esm.sh/common-tags@1.8.2";
 import { TemplateTag } from "../types.ts";
 
-export const oneLineInlineLists = (_oneLineInlineLists as unknown) as TemplateTag;
+export const oneLineInlineLists = _oneLineInlineLists as unknown as TemplateTag;

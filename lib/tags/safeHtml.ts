@@ -1,4 +1,4 @@
-import { safeHtml as _safeHtml } from "https://cdn.esm.sh/common-tags@1.8.0";
+import { safeHtml as _safeHtml } from "https://cdn.esm.sh/common-tags@1.8.2";
 import { TemplateTag } from "../types.ts";
 
-export const safeHtml = (_safeHtml as unknown) as TemplateTag;
+export const safeHtml = _safeHtml as unknown as TemplateTag;
