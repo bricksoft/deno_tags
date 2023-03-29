@@ -3,7 +3,6 @@ export * from "./tags/commaLists.ts";
 export * from "./tags/commaListsAnd.ts";
 export * from "./tags/commaListsOr.ts";
 export * from "./tags/html.ts";
-export * from "./tags/id.ts";
 export * from "./tags/inlineLists.ts";
 export * from "./tags/oneLine.ts";
 export * from "./tags/oneLineCommaLists.ts";
